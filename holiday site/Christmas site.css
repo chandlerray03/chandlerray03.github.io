@@ -1,0 +1,466 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Christmas {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#Information {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Pictures {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	top: 200px;
+}
+#Traditions {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Christmas {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#Information {
+	clear: both;
+	float: left;
+	margin-left: 25.641%;
+	width: 48.7179%;
+	display: block;
+	height: 150px;
+}
+#Pictures {
+	clear: both;
+	float: left;
+	margin-left: 25.641%;
+	width: 48.7179%;
+	display: block;
+	height: 180px;
+}
+
+#Traditions {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+	height: 220px;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Christmas {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#Information {
+	clear: both;
+	float: left;
+	margin-left: 25.4237%;
+	width: 49.1525%;
+	display: block;
+	height: 114px;
+}
+#Pictures {
+	clear: none;
+	float: left;
+	margin-left: 27.1186%;
+	width: 49.1525%;
+	display: block;
+	top: 200px;
+}
+#Traditions {
+	clear: both;
+	float: left;
+	margin-left: 25.4237%;
+	width: 49.1525%;
+	display: block;
+	
+}
+
+
+
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.menu-wrap { 
+	width:100%;
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu li {
+	list-style:none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	color:#093;
+	text-decoration:none;
+}
+
+body {
+	background-color:#F00;
+}
+
+.menu li:hover > a .menu .current-item > a {
+	text-decoration:none;
+}
+
+.menu > ul {
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.menu-wrap {
+	width:100%;
+	
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu li {
+	list-style:none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	color:#FFF;
+	text-decoration:none;
+}
+
+body {
+	background-color: #F00;
+}
+
+h1 {
+	color:#FFF;
+	text-align:center;
+	font-family:cursive;
+	border-top:double;
+	border-bottom:double;
+	border-left:double;
+	border-right:double;
+}
+
+.menu > ul {
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-family:times new "Times New Roman", Times, serif;
+}
+
+.menu > ul > li {
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border-left: double #093;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.menu > ul > li:hover, .menu > ul > .current-item > a {
+	background: #F00;
+}
+
+.menu li:hover .sub-menu {
+	z-index:1;
+	opacity:1;
+}
+
+.sub-menu {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#F9F;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.sub-menu li {
+	display:table;
+	text-align:center;
+	width:80%;
+	margin:auto;
+}
+
+.sub-menu li #first {
+	display:table;
+	text-align:center;
+	width:100%;
+	border-tip:0;
+	margin:auto;
+}
+
+.sub-menu a {
+	display: table-cell;
+	height:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+
+.sub-menu li:hover, .sub-menu .current item a {
+	background-color: #FCF;
+}
+
+
+
+
+
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+	display:block;
+	clear:both;
+	width:100%;
+}
+.menu-wrap{
+	width:100%;
+}
+.menu {
+	text-align:center;
+}
+.menu li {
+	list-style:none;
+	transition:all linear 0.15s;
+}
+.menu a {
+	transition: all linear 0.15s;
+	color:#6F9;
+	text-decoration:none;
+}                       
+	/*Top Level*/
+	.menu > ul{
+		display:table;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	
+	.menu > ul > li {
+		position:relative;
+		display:table-cell;
+		margin:0px;
+		padding:0;
+		text-align:center;
+		vertical-align:bottom;
+	}
+	.menu > ul > li:hover, .menu > ul > .current-item > a {
+	}
+	/* BOTTOM LEVEL */
+	.menu li:hover .sub-menu {
+		z-index:1;
+		opacity:1;
+	}
+	.sub-menu{
+		width:100%;
+		padding: 0px;
+		position:absolute;
+		top:0%;
+		left:100%;
+		z-index:-1;
+		opacity:0;
+		transition:opacity linear 0.15s;
+		background:#0CF;
+		text-align:center;
+		border-top:solid #CFF thick;
+	}
+	.sub-menu li{ 
+	display:table;
+	text-align:center;
+	width:80%;
+	border-top:solid #939 thin;
+	margin:auto;
+	}
+	.sub-menu a {
+		display:table-cell;
+		height:40px;
+		vertical-align:middle;
+		width:100%;
+		text-align:center;
+	}
+	.sub-menu li:hover, . sub-menu . current-item a {
+		background-color:#0FF;
+	}
+	
+	/*third tier*/
+.sub-menu li:hover .3tier {
+		z-index:1;
+		opacity:1;
+}
+	.3tier{
+		width:100%;
+		padding: 0px;
+		position:relative;
+		top:100%;
+		left:0px;
+		z-index:-1;
+		opacity:0;
+		transition:opacity linear 0.15s;
+		background:#0CF;
+		text-align:center;
+		border-top:solid #CFF thick;
+	}
+	.3tier li{
+		display:inline;
+	text-align:center;
+	width:80%;
+	border-top:solid #939 thin;
+	margin:auto;
+	}
+	.3tier a{
+		display:table-cell;
+		height:40px;
+		vertical-align:middle;
+		width:100%;
+		text-align:center;
+	}
+	
+
+#sub-menu-R{
+	position:absolute;
+		top:0%;
+		left:200%;
+}
+	
+
+
+
+
+
+
+
+
+
+body{
+	background-repeat:no no-repeat;
+	background-size:100%;
+}
+
+img{
+	height: 280px;
+	width: 340px;
+}
