@@ -16,7 +16,7 @@ img, object, embed, video {
 	----------------------------------
 	dw-num-cols-mobile:		5;
 	dw-num-cols-tablet:		8;
-	dw-num-cols-desktop:	12;
+	dw-num-cols-desktop:	10;
 	dw-gutter-percentage:	25;
 	
 	Inspiration from "Responsive Web Design" by Ethan Marcotte 
@@ -41,37 +41,49 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	}
-#Christmas {
+}
+#Soccer {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
+#EPL-Standings {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 16.6666%;
+	display: block;
+}
+#EPL-Top-Scorers {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 37.5%;
+	display: block;
+}
+#DropDownMenu {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Pictures {
+#EPL-Standings2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	top: 200px;
 }
-#Traditions {
+#EPL-Top-Scorers2 {
 	clear: both;
+	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	}
-
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -81,7 +93,6 @@ img, object, embed, video {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
-
 #LayoutDiv1 {
 	clear: both;
 	float: left;
@@ -89,99 +100,116 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#Christmas {
+#Soccer {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
+#EPL-Standings {
 	clear: both;
 	float: left;
-	margin-left: 25.641%;
+	margin-left: 0;
 	width: 48.7179%;
 	display: block;
-	height: 150px;
 }
-#Pictures {
+#EPL-Top-Scorers {
 	clear: both;
 	float: left;
-	margin-left: 25.641%;
+	margin-left: 0;
 	width: 48.7179%;
 	display: block;
-	height: 180px;
 }
-
-#Traditions {
+#DropDownMenu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#EPL-Standings2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 35.8974%;
 	display: block;
-	height: 220px;
 }
-
+#EPL-Top-Scorers2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
-	width: 88.5%;
+	width: 88.2%;
 	max-width: 1232px;
-	padding-left: 0.75%;
-	padding-right: 0.75%;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
 	margin: auto;
 }
 #LayoutDiv1 {
 	clear: both;
-	
 	float: left;
-	
 	margin-left: 0;
-	
 	width: 100%;
-	
 	display: block;
-	
 }
-#Christmas {
+#Soccer {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
+#EPL-Standings {
 	clear: both;
 	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
+	margin-left: 0;
+	width: 28.5714%;
 	display: block;
-	height: 114px;
 }
-#Pictures {
+#EPL-Top-Scorers {
 	clear: none;
 	float: left;
-	margin-left: 27.1186%;
-	width: 49.1525%;
+	margin-left: 42.8571%;
+	width: 38.7755%;
 	display: block;
-	top: 200px;
 }
-#Traditions {
+#DropDownMenu {
 	clear: both;
 	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
+	margin-left: 0;
+	width: 100%;
 	display: block;
-	
 }
+#EPL-Standings2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#EPL-Top-Scorers2 {
+	clear: none;
+	float: left;
+	margin-left: 22.4489%;
+	width: 100%;
+	display: block;
+}
+}
+_______________________________________________________________
+_______________________________________________________________
 
-
-
+body{
+	background-repeat:no no-repeat;
+	background-size:100%;
 }
 
 .clearfix:after {
@@ -199,7 +227,7 @@ img, object, embed, video {
 }
 
 .menu li {
-	list-style:none;
+	list-style: none;
 	transition:all linear 0.15s;
 }
 
@@ -245,7 +273,7 @@ body {
 }
 
 body {
-	background-color: #F00;
+	background-color: #FFF;
 }
 
 h1 {
@@ -272,14 +300,14 @@ h1 {
 	margin:0px;
 	padding:0;
 	width:10%;
-	border-left: double #093;
+	border-left: double #000;
 	text-align:center;
 	height:40px;
 	vertical-align:bottom;
 }
 
 .menu > ul > li:hover, .menu > ul > .current-item > a {
-	background: #F00;
+	background: #FFF;
 }
 
 .menu li:hover .sub-menu {
@@ -293,10 +321,10 @@ h1 {
 	position:absolute;
 	top:100%;
 	left:0px;
-	z-index:-1;
+	z-index:0;
 	opacity:0;
 	transition:opacity linear 0.15s;
-	background:#F9F;
+	background:#03F;
 	text-align:center;
 	border-top:solid #FFF thick;
 }
@@ -325,7 +353,7 @@ h1 {
 }
 
 .sub-menu li:hover, .sub-menu .current item a {
-	background-color: #FCF;
+	background-color: #FFF;
 }
 
 
@@ -355,8 +383,8 @@ h1 {
 }
 .menu a {
 	transition: all linear 0.15s;
-	color:#6F9;
-	text-decoration:none;
+	color:#000;
+	text-decoration: #0F0;
 }                       
 	/*Top Level*/
 	.menu > ul{
@@ -390,15 +418,15 @@ h1 {
 		z-index:-1;
 		opacity:0;
 		transition:opacity linear 0.15s;
-		background:#0CF;
+		background:#090;
 		text-align:center;
-		border-top:solid #CFF thick;
+		border-top:solid #000 thick;
 	}
 	.sub-menu li{ 
 	display:table;
 	text-align:center;
-	width:80%;
-	border-top:solid #939 thin;
+	width:100%;
+	border-top:solid #000 thin;
 	margin:auto;
 	}
 	.sub-menu a {
@@ -410,9 +438,7 @@ h1 {
 	}
 	.sub-menu li:hover, . sub-menu . current-item a {
 		background-color:#0FF;
-	}
-	
-t-align:center;
+		t-align:center;
 	}
 	
 
@@ -421,14 +447,11 @@ t-align:center;
 		top:0%;
 		left:100%;
 }
-	
-body{
-	background-repeat:no no-repeat;
-	background-size:100%;
+
+EPL-Standings{
+	line-height: 2em;
 }
 
-img{
-	height: 280px;
-	width: 340px;
-	
+li {
+	margin-bottom: 0.7em; 
 }

@@ -16,7 +16,7 @@ img, object, embed, video {
 	----------------------------------
 	dw-num-cols-mobile:		5;
 	dw-num-cols-tablet:		8;
-	dw-num-cols-desktop:	12;
+	dw-num-cols-desktop:	10;
 	dw-gutter-percentage:	25;
 	
 	Inspiration from "Responsive Web Design" by Ethan Marcotte 
@@ -41,37 +41,28 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	}
-#Christmas {
+}
+#Epl-Standings {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
+#Epl-TopScorers {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Pictures {
+#Description {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	top: 200px;
 }
-#Traditions {
-	clear: both;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-	}
-
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -81,7 +72,6 @@ img, object, embed, video {
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
-
 #LayoutDiv1 {
 	clear: both;
 	float: left;
@@ -89,99 +79,72 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#Christmas {
+#Epl-Standings {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
-	clear: both;
-	float: left;
-	margin-left: 25.641%;
-	width: 48.7179%;
-	display: block;
-	height: 150px;
-}
-#Pictures {
-	clear: both;
-	float: left;
-	margin-left: 25.641%;
-	width: 48.7179%;
-	display: block;
-	height: 180px;
-}
-
-#Traditions {
+#Epl-TopScorers {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 35.8974%;
+	width: 100%;
 	display: block;
-	height: 220px;
 }
-
+#Description {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
 .gridContainer {
-	width: 88.5%;
+	width: 88.2%;
 	max-width: 1232px;
-	padding-left: 0.75%;
-	padding-right: 0.75%;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
 	margin: auto;
 }
 #LayoutDiv1 {
 	clear: both;
-	
-	float: left;
-	
-	margin-left: 0;
-	
-	width: 100%;
-	
-	display: block;
-	
-}
-#Christmas {
-	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-
-#Information {
+#Epl-Standings {
 	clear: both;
 	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
+	margin-left: 0;
+	width: 28.5714%;
 	display: block;
-	height: 114px;
 }
-#Pictures {
+#Epl-TopScorers {
 	clear: none;
 	float: left;
-	margin-left: 27.1186%;
-	width: 49.1525%;
+	margin-left: 42.8571%;
+	width: 28.5714%;
 	display: block;
-	top: 200px;
 }
-#Traditions {
-	clear: both;
+#Description {
+	clear: none;
 	float: left;
-	margin-left: 25.4237%;
-	width: 49.1525%;
+	margin-left: 2.0408%;
+	width: 69.3877%;
 	display: block;
-	
+}
 }
 
-
-
+body{
+	background-repeat:no no-repeat;
+	background-size:100%;
 }
 
 .clearfix:after {
@@ -199,7 +162,7 @@ img, object, embed, video {
 }
 
 .menu li {
-	list-style:none;
+	list-style: none;
 	transition:all linear 0.15s;
 }
 
@@ -245,7 +208,7 @@ body {
 }
 
 body {
-	background-color: #F00;
+	background-color: #FFF;
 }
 
 h1 {
@@ -271,15 +234,15 @@ h1 {
 	display:table-cell;
 	margin:0px;
 	padding:0;
-	width:10%;
-	border-left: double #093;
+	width:100%;
+	border-left: double #000;
 	text-align:center;
 	height:40px;
 	vertical-align:bottom;
 }
 
 .menu > ul > li:hover, .menu > ul > .current-item > a {
-	background: #F00;
+	background: #FFF;
 }
 
 .menu li:hover .sub-menu {
@@ -290,13 +253,13 @@ h1 {
 .sub-menu {
 	width:100%;
 	padding:0px;
-	position:absolute;
+	position: relative;
 	top:100%;
 	left:0px;
-	z-index:-1;
+	z-index:0;
 	opacity:0;
 	transition:opacity linear 0.15s;
-	background:#F9F;
+	background:#03F;
 	text-align:center;
 	border-top:solid #FFF thick;
 }
@@ -304,14 +267,14 @@ h1 {
 .sub-menu li {
 	display:table;
 	text-align:center;
-	width:80%;
+	width:100%;
 	margin:auto;
 }
 
 .sub-menu li #first {
 	display:table;
 	text-align:center;
-	width:100%;
+	width:80%;
 	border-tip:0;
 	margin:auto;
 }
@@ -320,12 +283,12 @@ h1 {
 	display: table-cell;
 	height:40px;
 	vertical-align:middle;
-	width:100%;
+	width:80%;
 	text-align:center;
 }
 
 .sub-menu li:hover, .sub-menu .current item a {
-	background-color: #FCF;
+	background-color: #FFF;
 }
 
 
@@ -341,22 +304,22 @@ h1 {
 .clearfix:after {
 	display:block;
 	clear:both;
-	width:100%;
+	width:25%;
 }
 .menu-wrap{
-	width:100%;
+	width: 20%;
 }
 .menu {
 	text-align:center;
 }
 .menu li {
-	list-style:none;
+	list-style: lower-latin;
 	transition:all linear 0.15s;
 }
 .menu a {
 	transition: all linear 0.15s;
-	color:#6F9;
-	text-decoration:none;
+	color:#000;
+	text-decoration: #0F0;
 }                       
 	/*Top Level*/
 	.menu > ul{
@@ -372,10 +335,11 @@ h1 {
 		margin:0px;
 		padding:0;
 		text-align:center;
-		vertical-align:bottom;
+		vertical-align: central;
 	}
-	.menu > ul > li:hover, .menu > ul > .current-item > a {
-	}
+
+		
+	
 	/* BOTTOM LEVEL */
 	.menu li:hover .sub-menu {
 		z-index:1;
@@ -385,24 +349,20 @@ h1 {
 		width:100%;
 		padding: 0px;
 		position:absolute;
-		top:0%;
-		left:100%;
+		top:100%;
+		left:0px;
 		z-index:-1;
 		opacity:0;
 		transition:opacity linear 0.15s;
-		background:#0CF;
+		background:white;
 		text-align:center;
 		border-top:solid #CFF thick;
 	}
-	.sub-menu li{ 
-	display:table;
-	text-align:center;
-	width:80%;
-	border-top:solid #939 thin;
-	margin:auto;
+
+	.sub-menu li:hover, . sub-menu . current-item a{
+		background-color:#0FF;
 	}
 	.sub-menu a {
-		display:table-cell;
 		height:40px;
 		vertical-align:middle;
 		width:100%;
@@ -410,9 +370,7 @@ h1 {
 	}
 	.sub-menu li:hover, . sub-menu . current-item a {
 		background-color:#0FF;
-	}
-	
-t-align:center;
+		t-align:center;
 	}
 	
 
@@ -421,14 +379,21 @@ t-align:center;
 		top:0%;
 		left:100%;
 }
-	
-body{
-	background-repeat:no no-repeat;
-	background-size:100%;
+
+
+
+EPL-Standings{
+	line-height: 2em;
 }
 
-img{
-	height: 280px;
-	width: 340px;
-	
+li {
+	margin-bottom: 0.7em; 
 }
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+
+
