@@ -42,6 +42,34 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#UEFA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#EPL-Standings {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#World-Cup {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Club-World-Cup {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -52,6 +80,34 @@ img, object, embed, video {
 	padding-right: 1.1625%;
 }
 #LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#UEFA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#EPL-Standings {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#World-Cup {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Club-World-Cup {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -75,6 +131,34 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	display: block;
+}
+#UEFA {
+	clear: both;
+	float: left;
+	margin-left: 51.0204%;
+	width: 38.7755%;
+	display: block;
+}
+#EPL-Standings {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+}
+#World-Cup {
+	clear: both;
+	float: left;
+	margin-left: 51.0204%;
+	width: 38.7755%;
+	display: block;
+}
+#Club-World-Cup {
+	clear: both;
+	float: left;
+	margin-left: 51.0204%;
+	width: 38.7755%;
 	display: block;
 }
 }
@@ -318,4 +402,29 @@ h1 {
 	position:absolute;
 		top:0%;
 		left:100%;
+}
+
+
+EPL-Standings{
+	line-height: 2em;
+	top: 1000px;
+}
+
+li {
+	margin-bottom: 0.7em; 
+}
+
+
+	
+EPL-Standings{
+	line-height: 2em;
+}
+
+li {
+	margin-bottom: 0.7em; 
+}
+
+div#homepic{
+	width: 70px;
+	height: 70px;
 }
