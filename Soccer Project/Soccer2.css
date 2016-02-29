@@ -63,6 +63,13 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#Picturess {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -94,6 +101,13 @@ img, object, embed, video {
 	display: block;
 }
 #Description {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Picturess {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -138,6 +152,13 @@ img, object, embed, video {
 	float: left;
 	margin-left: 2.0408%;
 	width: 69.3877%;
+	display: block;
+}
+#Picturess {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
 	display: block;
 }
 }
@@ -390,11 +411,18 @@ li {
 	margin-bottom: 0.7em; 
 }
 
-div
 
 div#homepic{
 	width: 70px;
 	height: 70px;
+}
+
+
+
+
+div#Pictures{
+	width: 400px;
+	height:400px;
 }
 
 
