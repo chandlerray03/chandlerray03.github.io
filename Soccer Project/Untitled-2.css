@@ -133,10 +133,16 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#TopTop{
+	position: relative;
+	top: 500px;
+	height: 1000px;
+	width: 1000px;
+}
 #UEFA {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 51.0204%;
+	margin-left: 53.0612%;
 	width: 38.7755%;
 	display: block;
 }
@@ -428,3 +434,8 @@ div#homepic{
 	width: 70px;
 	height: 70px;
 }
+
+div#TopTop{
+	top: -1234px;
+}
+
