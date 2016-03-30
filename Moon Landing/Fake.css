@@ -80,6 +80,241 @@ img, object, embed, video {
 }
 
 
+.clearfix:after {
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.menu-wrap { 
+	width:100%;
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu li {
+	list-style: none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	color:#093;
+	text-decoration:none;
+}
+
+body {
+	background-color:#F00;
+}
+
+.menu li:hover > a .menu .current-item > a {
+	text-decoration:none;
+}
+
+.menu > ul {
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+.menu-wrap {
+	width:100%;
+	
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu li {
+	list-style:none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	color:#FFF;
+	text-decoration:none;
+}
+
+body {
+	background-color: #FFF;
+}
+
+h1 {
+	color:#FFF;
+	text-align:center;
+	font-family:cursive;
+	border-top:double;
+	border-bottom:double;
+	border-left:double;
+	border-right:double;
+}
+
+.menu > ul {
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-family:times new "Times New Roman", Times, serif;
+}
+
+.menu > ul > li {
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:100%;
+	border-left: double #000;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.menu > ul > li:hover, .menu > ul > .current-item > a {
+	background: #FFF;
+}
+
+.menu li:hover .sub-menu {
+	z-index:1;
+	opacity:1;
+}
+
+.sub-menu {
+	width:100%;
+	padding:0px;
+	position: relative;
+	top:100%;
+	left:0px;
+	z-index:0;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#FFF;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.sub-menu li {
+	display:table;
+	text-align:center;
+	width:100%;
+	margin:auto;
+}
+
+.sub-menu li #first {
+	display:table;
+	text-align:center;
+	width:100%;
+	border-tip:0;
+	margin:auto;
+}
+
+.sub-menu a {
+	display: table-cell;
+	height:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+
+.sub-menu li:hover, .sub-menu .current item a {
+	background-color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+	display:block;
+	clear:both;
+	width:50%;
+}
+.menu-wrap{
+	width: 50%;
+}
+.menu {
+	text-align:center;
+}
+.menu li {
+	list-style: lower-latin;
+	transition:all linear 0.15s;
+}
+.menu a {
+	transition: all linear 0.15s;
+	color:#FFF;
+	text-decoration: #FFF;
+}                       
+	/*Top Level*/
+	.menu > ul{
+		display:table;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	
+	.menu > ul > li {
+		position:relative;
+		display:table-cell;
+		margin:0px;
+		padding:0;
+		text-align:center;
+		vertical-align: central;
+	}
+
+		
+	
+	/* BOTTOM LEVEL */
+	.menu li:hover .sub-menu {
+		z-index:1;
+		opacity:1;
+	}
+	.sub-menu{
+		width:100%;
+		padding: 0px;
+		position:absolute;
+		top:100%;
+		left:0px;
+		z-index:-1;
+		opacity:0;
+		transition:opacity linear 0.15s;
+		background:white;
+		text-align:center;
+		border-top:solid #CFF thick;
+	}
+
+	.sub-menu li:hover, . sub-menu . current-item a{
+		background-color:#FFF;
+	}
+	.sub-menu a {
+		height:40px;
+		vertical-align:middle;
+		width:100%;
+		text-align:center;
+	}
+	.sub-menu li:hover, . sub-menu . current-item a {
+		background-color:#FFF;
+		t-align: center;
+	}
+	
+
+#sub-menu-R{
+	position:absolute;
+		top:0%;
+		left:100%;
+}
+
+
+
 div#homebutton{
 	height:60px;
 	width:60px;
