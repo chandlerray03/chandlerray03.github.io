@@ -42,71 +42,27 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#header {
+#Header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Preview {
+#Hisotry {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Preview2 {
+#HipHop {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Slideshow1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Preview3 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#AboutMe {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-
-	
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -123,63 +79,21 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#header {
+#Header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Preview {
+#Hisotry {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Preview2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Slideshow1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Preview3 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#AboutMe {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#School1 {
+#HipHop {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -205,93 +119,34 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#header {
+#Header {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#Preview {
-	clear: both;
-	float: left;
-	margin-left: 10.204%;
-	width: 69.3877%;
-	display: block;
-	margin-top: 70px;
-}
-#Preview2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 48.9795%;
-	display: block;
-}
-#Slideshow1 {
-	clear: both;
-	float: left;
-	margin-left: 20.4081%;
-	width: 59.1836%;
-	display: block;
-	margin-top: 75px;
-}
-#Preview3 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#AboutMe {
-	clear: both;
-	float: left;
-	margin-left: 40.8163%;
-	width: 28.5714%;
-	display: block;
-	margin-top: 20px;
-}
-#School {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-	height: 100px;
-}
-#School2 {
-	clear: both;
-	float: left;
-	margin-left: 61.2244%;
-	width: 38.7755%;
-	display: block;
-	margin-top: -130px;
-}
-#School1 {
+#Hisotry {
 	clear: both;
 	float: left;
 	margin-left: 10.204%;
 	width: 38.7755%;
 	display: block;
-	margin-top: 30px;
+}
+#HipHop {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 38.7755%;
+	display: block;
 }
 }
 
-h3{
-	color: white;
+img{
+	width: 60px;
+	height: 60px;
 }
 
-a{
-	color: white;
-	text-decoration: none;
-	margin: 10px;
-}
-
-a > img{
-	width: 50px;
-	height: 50px;
-}
-
-
-AboutMe{
-	font-size: 20px;
+a{ 
+	margin: 15px;
 }
