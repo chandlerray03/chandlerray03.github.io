@@ -42,35 +42,14 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#LeastFavoriteTings {
+#LayoutDiv2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#ManCity {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Two {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Three {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Four {
+#LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -93,35 +72,14 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#LeastFavoriteTings {
+#LayoutDiv2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
 }
-#ManCity {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Two {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Three {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Four {
+#LayoutDiv3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -144,48 +102,24 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#LeastFavoriteTings {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#ManCity {
-	clear: both;
-	float: left;
-	margin-left: 0;
 	width: 48.9795%;
 	display: block;
 }
-#Two {
+#LayoutDiv2 {
 	clear: none;
 	float: left;
 	margin-left: 2.0408%;
 	width: 48.9795%;
 	display: block;
 }
-#Three {
-	clear: both;
+#LayoutDiv3 {
+	clear: none;
 	float: left;
-	margin-left: 0;
+	margin-left: 2.0408%;
 	width: 48.9795%;
 	display: block;
-	margin-top: 50px;
-}
-#Four {
-	clear: both;
-	float: left;
-	margin-left: 51.0204%;
-	width: 48.9795%;
-	display: block;
-	margin-top: -360px;
 }
 }
-
 
 h3{
 	color: white;
@@ -201,12 +135,3 @@ a > img{
 	width: 50px;
 	height: 50px;
 }
-
-
-AboutMe{
-	font-size: 20px;
-}
-img{
-	height: 300px;
-}
-
